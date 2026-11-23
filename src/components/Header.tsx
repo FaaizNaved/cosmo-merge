@@ -1,5 +1,5 @@
 import React from 'react';
-import { Volume2, VolumeX, Music, HelpCircle, Trophy, Sparkles, Orbit } from 'lucide-react';
+import { Volume2, VolumeX, Music, HelpCircle, Trophy, Sparkles, Orbit, Code } from 'lucide-react';
 
 interface HeaderProps {
   score: number;
@@ -7,6 +7,7 @@ interface HeaderProps {
   combo: number;
   onOpenHelp: () => void;
   onOpenEvolution: () => void;
+  onOpenEmbed: () => void;
   soundOn: boolean;
   musicOn: boolean;
   onToggleSound: () => void;
@@ -19,6 +20,7 @@ export const Header: React.FC<HeaderProps> = ({
   combo,
   onOpenHelp,
   onOpenEvolution,
+  onOpenEmbed,
   soundOn,
   musicOn,
   onToggleSound,
@@ -46,6 +48,13 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* Action Controls */}
         <div className="flex items-center gap-1.5">
+          <button
+            onClick={onOpenEmbed}
+            title="Embed on your website / blog"
+            className="p-2 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/50 transition"
+          >
+            <Code className="w-4 h-4" />
+          </button>
           <button
             onClick={onOpenEvolution}
             title="Planet Evolution Tree"

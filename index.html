@@ -39,28 +39,60 @@
 
     <!-- Schema.org JSON-LD Structured Data for Google Game Rich Card -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "VideoGame",
-      "name": "Cosmo Merge: Planetary 2048",
-      "description": "A cosmic 2D physics puzzle game where players drop and fuse celestial bodies into stars, supernovas, and black holes.",
-      "genre": ["Puzzle", "Physics", "Casual", "Strategy"],
-      "playMode": "SinglePlayer",
-      "applicationCategory": "Game",
-      "operatingSystem": "Web Browser (Mobile and Desktop)",
-      "url": "https://cosmo-merge.vercel.app",
-      "author": {
-        "@type": "Person",
-        "name": "Mohd Faaiz Naved",
-        "url": "https://github.com/FaaizNaved"
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Cosmo Merge: Planetary 2048",
+        "description": "A cosmic 2D physics puzzle game where players drop and fuse celestial bodies into stars, supernovas, and black holes.",
+        "genre": ["Puzzle", "Physics", "Casual", "Strategy"],
+        "playMode": "SinglePlayer",
+        "applicationCategory": "Game",
+        "operatingSystem": "Web Browser (Mobile and Desktop)",
+        "url": "https://cosmo-merge.vercel.app",
+        "author": {
+          "@type": "Person",
+          "name": "Mohd Faaiz Naved",
+          "url": "https://github.com/FaaizNaved"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
       },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock"
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Cosmo Merge: Planetary 2048?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cosmo Merge is a free physics drop-and-merge browser game inspired by Suika Game and 2048. Players drop celestial bodies into orbit, colliding identical planets to evolve them from tiny Stardust into Supernovas and Black Holes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Cosmo Merge free and unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Cosmo Merge is 100% free to play with no downloads or installation required. It runs unblocked directly in any web browser on desktop, iPhone, Android, and Chromebooks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you reach the Black Hole in Cosmo Merge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Merge planets sequentially through the 12 cosmic tiers: Stardust, Meteorite, Luna, Mercury, Mars, Earth, Neptune, Jupiter, Solar Sun, Pulsar Star, Supernova, and finally the Black Hole singularity. Use the Supernova Bomb and Gravity Vortex power-ups strategically to clear stacked planets."
+            }
+          }
+        ]
       }
-    }
+    ]
     </script>
   </head>
   <body class="bg-[#070814] text-slate-100 overflow-x-hidden antialiased">

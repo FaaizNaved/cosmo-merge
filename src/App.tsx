@@ -6,6 +6,7 @@ import { PowerUpBar } from './components/PowerUpBar';
 import { GameOverModal } from './components/GameOverModal';
 import { EvolutionTreeModal } from './components/EvolutionTreeModal';
 import { HelpModal } from './components/HelpModal';
+import { EmbedModal } from './components/EmbedModal';
 import { LegalModal } from './components/LegalModals';
 import { CookieBanner } from './components/CookieBanner';
 import { AdBanner } from './components/AdBanner';
@@ -34,6 +35,7 @@ export const App: React.FC = () => {
   // Modals
   const [showEvolution, setShowEvolution] = useState<boolean>(false);
   const [showHelp, setShowHelp] = useState<boolean>(false);
+  const [showEmbed, setShowEmbed] = useState<boolean>(false);
   const [legalType, setLegalType] = useState<'privacy' | 'terms' | null>(null);
   const [isBombActive, setIsBombActive] = useState<boolean>(false);
 
@@ -170,6 +172,7 @@ export const App: React.FC = () => {
           combo={combo}
           onOpenHelp={() => setShowHelp(true)}
           onOpenEvolution={() => setShowEvolution(true)}
+          onOpenEmbed={() => setShowEmbed(true)}
           soundOn={soundOn}
           musicOn={musicOn}
           onToggleSound={toggleSound}
@@ -248,6 +251,11 @@ export const App: React.FC = () => {
       <EvolutionTreeModal
         isOpen={showEvolution}
         onClose={() => setShowEvolution(false)}
+      />
+
+      <EmbedModal
+        isOpen={showEmbed}
+        onClose={() => setShowEmbed(false)}
       />
 
       <HelpModal
