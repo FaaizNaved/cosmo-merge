@@ -18,9 +18,9 @@ export const AdBanner: React.FC<AdBannerProps> = ({
   format = 'banner',
   className = ''
 }) => {
-  // Check if real AdSense client is configured via global or env
-  const adsenseClientId = (import.meta as unknown as { env: Record<string, string> }).env?.VITE_ADSENSE_CLIENT_ID || '';
-  const isRealAdSenseEnabled = Boolean(adsenseClientId && adsenseClientId.startsWith('ca-pub-'));
+  // Google AdSense Publisher ID
+  const adsenseClientId = (import.meta as unknown as { env: Record<string, string> }).env?.VITE_ADSENSE_CLIENT_ID || 'ca-pub-3896262766732996';
+  const isRealAdSenseEnabled = true;
 
   useEffect(() => {
     if (isRealAdSenseEnabled) {
