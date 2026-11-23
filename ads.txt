@@ -1,0 +1,2 @@
+# Google AdSense ads.txt for cosmo-merge.vercel.app
+google.com, pub-3896262766732996, DIRECT, f08c47fec0942fa0

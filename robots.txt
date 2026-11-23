@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cosmo-merge.vercel.app/sitemap.xml
