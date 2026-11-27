@@ -11,7 +11,6 @@ import { LegalModal } from './components/LegalModals';
 import { CookieBanner } from './components/CookieBanner';
 import { AdBanner } from './components/AdBanner';
 import { Analytics } from '@vercel/analytics/react';
-import { Analytics } from '@vercel/analytics/react';
 import { PhysicsEngine } from './engine/physics';
 import {
   loadGameStats,
