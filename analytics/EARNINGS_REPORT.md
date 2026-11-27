@@ -2,7 +2,7 @@
 
 **Live Website:** [https://cosmo-merge.vercel.app](https://cosmo-merge.vercel.app)  
 **AdSense Publisher ID:** `pub-3896262766732996`  
-**Last Updated:** Mon, 23 Nov 2026 20:51:12 GMT
+**Last Updated:** Fri, 27 Nov 2026 16:58:47 GMT
 
 ---
 
@@ -10,11 +10,11 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Cumulative Earnings** | **$3.63 USD** |
-| **Today's Estimated Revenue** | **$3.63 USD** |
-| **Average eCPM** | **$2.45** |
-| **Total Ad Impressions** | **1,480** |
-| **Monthly Target Progress** | **$3.63 / $1500.00 (0.2%)** |
+| **Total Cumulative Earnings** | **$7.55 USD** |
+| **Today's Estimated Revenue** | **$3.92 USD** |
+| **Average eCPM** | **$2.52** |
+| **Total Ad Impressions** | **3,035** |
+| **Monthly Target Progress** | **$7.55 / $1500.00 (0.5%)** |
 
 ---
 
@@ -23,6 +23,7 @@
 | Date | Visitors | Pageviews | Impressions | Clicks | CTR | eCPM | Est. Earnings |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `2026-11-23` | 140 | 620 | 1,480 | 28 | 1.89% | $2.45 | **$3.63** |
+| `2026-11-27` | 167 | 648 | 1,555 | 31 | 1.99% | $2.52 | **$3.92** |
 
 ---
 
